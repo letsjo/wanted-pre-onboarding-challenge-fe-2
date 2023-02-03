@@ -1,12 +1,15 @@
 {
-	"name": "jsdoc-boilerplate",
-	"version": "1.0.0",
-	"description": "",
-	"main": "index.js",
-	"scripts": {
-		"docs": "jsdoc -c jsdoc.json"
-	},
-	"devDependencies": {
-		"jsdoc": "^3.6.11"
-	}
+  "name": "wanted-pre-onboarding-challenge",
+  "version": "1.0.0",
+  "description": "jsdoc",
+  "main": "index.js",
+  "scripts": {
+    "docs": "jsdoc -c jsdoc.json",
+    "predeploy": "npm run docs",
+    "deploy": "gh-pages -d docs"
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0",
+    "jsdoc": "^3.6.11"
+  }
 }
