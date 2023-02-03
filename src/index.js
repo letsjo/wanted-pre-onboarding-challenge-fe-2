@@ -41,3 +41,20 @@ async function getTodo() { }
  * @returns {Promise<Todo>} todo json data.
  */
 async function getTodoDetail(id) { }
+
+/**
+ * A UpdateTodo data type
+ * @typedef {Object} UpdateTodo - UpdateTodo type
+ * @property {string} id - id (reqired)
+ * @property {string=} content - content (optional)
+ * @property {boolean=} completed - status (optional)
+ * @property {string=} category - category (optional)
+ * @property {Array<string>=} tags - tags string array (optional)
+ */
+
+/**
+ * A updateTodo function update specific todo with id.
+ * @param {UpdateTodo} props reqired : id, optional : content, completed, category, tags
+ * @returns {Promise<Todo>} todo json data about update
+ */
+async function updateTodo({ id, content, completed, category, tags }) { }
