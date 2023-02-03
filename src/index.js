@@ -58,3 +58,16 @@ async function getTodoDetail(id) { }
  * @returns {Promise<Todo>} todo json data about update
  */
 async function updateTodo({ id, content, completed, category, tags }) { }
+
+/**
+ * The deleteTodo function deletes a to-do item with a specific id.
+ * @param {Todo.id} id (reqired)
+ * @returns {Promise<any>}
+ */
+async function deleteTodo(id) { }
+
+/**
+ * The deleteAllTodo function deletes ALL TODO.
+ * @returns {Promise<any>}
+ */
+async function deleteAllTodo() { }
