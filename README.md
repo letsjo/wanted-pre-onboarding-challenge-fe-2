@@ -4,6 +4,11 @@
 
 [pocojang/wanted-pre-onboarding-challenge-fe-2-requirements.md](https://gist.github.com/pocojang/3c3d4470a3d2a978b5ebfb3f613e40fa#file-wanted-pre-onboarding-challenge-fe-2-requirements-md)
 
+## 📌 과제 제출하기
+
+- [필요한 데이터를 모두 모델링](./src/index.js)
+- [JSDoc 정적 페이지를 배포](https://letsjo.github.io/wanted-pre-onboarding-challenge-fe-2/)
+
 ## 👨‍💻 자기소개
 
 프론트앤드 개발자 조현오 입니다. 👋
