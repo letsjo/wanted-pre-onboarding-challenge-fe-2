@@ -14,8 +14,6 @@
  * @property {Tag[]} tags - tags string array (reqired)
  */
 
-
-
 /**
  * A createTodo function params type.
  * @typedef {Object} CreateTodo - CreateTodo type.
@@ -29,4 +27,17 @@
  * @param {CreateTodo} props content(reqired), category(reqired), tags(optional)
  * @returns {Promise<Todo>} return todo value.
  */
-async function createTodo({ content, category, tags }) {}
+async function createTodo({ content, category, tags }) { }
+
+/**
+ * A getTodo function is request function for todo list.
+ * @returns {Promise<Todo[]>} todo json data.
+ */
+async function getTodo() { }
+
+/**
+ * A getTodoDetail function is request function for todo detail.
+ * @param {Todo.id} id todo id (reqired)
+ * @returns {Promise<Todo>} todo json data.
+ */
+async function getTodoDetail(id) { }
