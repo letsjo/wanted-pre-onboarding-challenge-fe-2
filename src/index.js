@@ -71,3 +71,18 @@ async function deleteTodo(id) { }
  * @returns {Promise<any>}
  */
 async function deleteAllTodo() { }
+
+/**
+ * The deleteTodoTag function deletes a to-do's tag.
+ * @param {Todo.id} todoId (reqired)
+ * @param {Tag} todoTag (reqired)
+ * @returns {Promise<any>}
+ */
+async function deleteTodoTag(todoId, todoTag) { }
+
+/**
+ * The deleteAllTodo function deletes to-do's all tags.
+ * @param {Todo.id} todoId (reqired)
+ * @returns {Promise<any>}
+ */
+async function deleteAllTodoTags(todoId) { }
